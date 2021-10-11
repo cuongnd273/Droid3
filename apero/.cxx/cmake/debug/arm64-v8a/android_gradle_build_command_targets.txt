@@ -1,0 +1,12 @@
+Executable : /home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a
+jbcrypto
+libovpnexec.so
+openvpn
+opvpnutil
+osslspeedtest
+ovpn3
+jvmArgs : 
+

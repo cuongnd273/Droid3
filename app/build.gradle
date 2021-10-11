@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.jkenneth.droidovpn"
+        minSdkVersion 22
+        targetSdkVersion 30
+        versionCode 2
+        versionName "1.0.1"
+
+        buildConfigField("String", "VPN_GATE_API", "\"http://www.vpngate.net/api/iphone/\"")
+        ndk {
+            abiFilters "armeabi-v7a"//, "x86","arm64-v8a","x86_64"
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro',
+                    'proguard/proguard-okhttp3.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation project(path: ':apero')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'pub.devrel:easypermissions:0.4.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.8.0'
+    implementation 'com.badoo.mobile:android-weak-handler:1.1'
+}

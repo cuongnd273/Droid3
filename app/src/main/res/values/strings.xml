@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Trusted VPN Test</string>
+    <string name="server_details">Server Details</string>
+    <string name="settings">Settings</string>
+    <string name="open_source_licenses">Open source licenses</string>
+
+    <string name="action_licenses">@string/open_source_licenses</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_sort_country">Country</string>
+    <string name="action_sort_speed">Speed</string>
+    <string name="action_sort_ping">Ping</string>
+    <string name="action_settings">@string/settings</string>
+    <string name="action_share">Share</string>
+
+    <!-- Runtime Permissions -->
+    <string name="rationale_write_external">This app needs access to your external storage to save OVPN profiles.</string>
+    <string name="permission_denied_message">Permission denied</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_import_dialog">Import failed</string>
+    <string name="message_import_dialog">This app needs OpenVPN Connect app to import OVPN profile. Do you want to install OpenVPN Connect on Google Play Store?</string>
+    <string name="install">Install</string>
+
+    <string name="format_ip_address">IP Address: %1$s:%2$d</string>
+    <string name="format_speed">Speed: %s</string>
+    <string name="format_ping">Ping: %s ms</string>
+    <string name="ok">OK</string>
+
+    <!-- Server Details -->
+    <string name="country_name">Country Name:</string>
+    <string name="ddns_host_name">Host Name:</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="port">Port:</string>
+    <string name="protocol">Protocol:</string>
+    <string name="speed">Speed:</string>
+    <string name="ping">Ping:</string>
+    <string name="vpn_sessions">VPN Sessions:</string>
+    <string name="uptime">Uptime:</string>
+    <string name="total_users">Total Users:</string>
+    <string name="total_traffic">Total Traffic:</string>
+    <string name="logging_policy">Logging Policy:</string>
+    <string name="operator_name">Operator\'s Name:</string>
+    <string name="operator_message">Operator\'s Message:</string>
+    <string name="btn_import">Import to OpenVPN Client</string>
+    <string name="btn_start_vpn">Start VPN</string>
+
+    <string name="invalid_server">Server details is not available.</string>
+    <string name="empty_list">No servers available.</string>
+    <string name="init_fail">Init fail</string>
+</resources>

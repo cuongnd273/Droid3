@@ -1,0 +1,171 @@
+{
+  "buildFiles": [
+    "/home/cuong/AndroidStudioProjects/Droid/apero/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ovpn3-Debug-arm64-v8a": {
+      "artifactName": "ovpn3",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "ovpn3"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libovpn3.so",
+      "runtimeFiles": []
+    },
+    "nopie_openvpn.arm64-v8a-Debug-arm64-v8a": {
+      "artifactName": "nopie_openvpn.arm64-v8a",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "nopie_openvpn.arm64-v8a"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/nopie_openvpn.arm64-v8a",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libopenvpn.so"
+      ]
+    },
+    "libovpnexec.so-Debug-arm64-v8a": {
+      "artifactName": "libovpnexec.so",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "libovpnexec.so"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libovpnexec.so",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libopenvpn.so"
+      ]
+    },
+    "lzo-Debug-arm64-v8a": {
+      "artifactName": "lzo",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "lzo"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a/liblzo.a",
+      "runtimeFiles": []
+    },
+    "opvpnutil-Debug-arm64-v8a": {
+      "artifactName": "opvpnutil",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "opvpnutil"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libopvpnutil.so",
+      "runtimeFiles": []
+    },
+    "ssl-Debug-arm64-v8a": {
+      "artifactName": "ssl",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "ssl"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a/libssl.a",
+      "runtimeFiles": []
+    },
+    "crypto-Debug-arm64-v8a": {
+      "artifactName": "crypto",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "crypto"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a/libcrypto.a",
+      "runtimeFiles": []
+    },
+    "lz4-Debug-arm64-v8a": {
+      "artifactName": "lz4",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "lz4"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a/liblz4.a",
+      "runtimeFiles": []
+    },
+    "pie_openvpn.arm64-v8a-Debug-arm64-v8a": {
+      "artifactName": "pie_openvpn.arm64-v8a",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "pie_openvpn.arm64-v8a"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/pie_openvpn.arm64-v8a",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libopenvpn.so"
+      ]
+    },
+    "jbcrypto-Debug-arm64-v8a": {
+      "artifactName": "jbcrypto",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "jbcrypto"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libjbcrypto.so",
+      "runtimeFiles": []
+    },
+    "openvpn-Debug-arm64-v8a": {
+      "artifactName": "openvpn",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "openvpn"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libopenvpn.so",
+      "runtimeFiles": []
+    },
+    "osslspeedtest-Debug-arm64-v8a": {
+      "artifactName": "osslspeedtest",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/arm64-v8a",
+        "osslspeedtest"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a/libosslspeedtest.so",
+      "runtimeFiles": []
+    }
+  }
+}

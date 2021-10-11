@@ -1,0 +1,11 @@
+ninja: Entering directory `/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a'
+[0/1] Re-running CMake...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a
+[1/6] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/jniglue.c.o
+[2/6] Building C object CMakeFiles/opvpnutil.dir/opvpnutil/scan_ifs.c.o
+[3/6] Linking C shared library /home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopvpnutil.so
+[4/6] Building CXX object CMakeFiles/ovpn3.dir/ovpncli_wrap.cxx.o
+[5/6] Building CXX object CMakeFiles/ovpn3.dir/openvpn3/client/ovpncli.cpp.o
+[6/6] Linking CXX shared library /home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libovpn3.so

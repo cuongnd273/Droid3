@@ -1,0 +1,171 @@
+{
+  "buildFiles": [
+    "/home/cuong/AndroidStudioProjects/Droid/apero/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "openvpn-Debug-armeabi-v7a": {
+      "artifactName": "openvpn",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "openvpn"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopenvpn.so",
+      "runtimeFiles": []
+    },
+    "crypto-Debug-armeabi-v7a": {
+      "artifactName": "crypto",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "crypto"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a/libcrypto.a",
+      "runtimeFiles": []
+    },
+    "ssl-Debug-armeabi-v7a": {
+      "artifactName": "ssl",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "ssl"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a/libssl.a",
+      "runtimeFiles": []
+    },
+    "opvpnutil-Debug-armeabi-v7a": {
+      "artifactName": "opvpnutil",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "opvpnutil"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopvpnutil.so",
+      "runtimeFiles": []
+    },
+    "osslspeedtest-Debug-armeabi-v7a": {
+      "artifactName": "osslspeedtest",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "osslspeedtest"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libosslspeedtest.so",
+      "runtimeFiles": []
+    },
+    "pie_openvpn.armeabi-v7a-Debug-armeabi-v7a": {
+      "artifactName": "pie_openvpn.armeabi-v7a",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "pie_openvpn.armeabi-v7a"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/pie_openvpn.armeabi-v7a",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopenvpn.so"
+      ]
+    },
+    "nopie_openvpn.armeabi-v7a-Debug-armeabi-v7a": {
+      "artifactName": "nopie_openvpn.armeabi-v7a",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "nopie_openvpn.armeabi-v7a"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/nopie_openvpn.armeabi-v7a",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopenvpn.so"
+      ]
+    },
+    "libovpnexec.so-Debug-armeabi-v7a": {
+      "artifactName": "libovpnexec.so",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "libovpnexec.so"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libovpnexec.so",
+      "runtimeFiles": [
+        "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libopenvpn.so"
+      ]
+    },
+    "ovpn3-Debug-armeabi-v7a": {
+      "artifactName": "ovpn3",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "ovpn3"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libovpn3.so",
+      "runtimeFiles": []
+    },
+    "lz4-Debug-armeabi-v7a": {
+      "artifactName": "lz4",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "lz4"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a/liblz4.a",
+      "runtimeFiles": []
+    },
+    "lzo-Debug-armeabi-v7a": {
+      "artifactName": "lzo",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "lzo"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a/liblzo.a",
+      "runtimeFiles": []
+    },
+    "jbcrypto-Debug-armeabi-v7a": {
+      "artifactName": "jbcrypto",
+      "buildCommandComponents": [
+        "/home/cuong/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/armeabi-v7a",
+        "jbcrypto"
+      ],
+      "abi": "armeabi-v7a",
+      "output": "/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/armeabi-v7a/libjbcrypto.so",
+      "runtimeFiles": []
+    }
+  }
+}

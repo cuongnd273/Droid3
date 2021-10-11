@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: pub.devrel:easypermissions:0.4.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/b5bef94db86af99caf6f16503ae379fe/jetified-easypermissions-0.4.2/res" />
+      <root url="jar://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/b5bef94db86af99caf6f16503ae379fe/jetified-easypermissions-0.4.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/b5bef94db86af99caf6f16503ae379fe/jetified-easypermissions-0.4.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/modules-2/files-2.1/pub.devrel/easypermissions/0.4.2/3fca1a0485b30bc1ef077eacfacf7c87756142fd/easypermissions-0.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

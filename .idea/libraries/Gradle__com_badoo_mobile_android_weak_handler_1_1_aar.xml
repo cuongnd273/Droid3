@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.badoo.mobile:android-weak-handler:1.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/146410960271e842b8902f05192ce723/jetified-android-weak-handler-1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2f7cd46d7f21e68d9875d431ae86ab5e/jetified-android-weak-handler-1.1/res" />
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/21.0.6113669/caches/transforms-2/files-2.1/130549868b6704ea05b86255f4618591/jetified-android-weak-handler-1.1/res" />
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/3ef83d689bc05d918ff912774f2c33c3/jetified-android-weak-handler-1.1/res" />
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/146410960271e842b8902f05192ce723/jetified-android-weak-handler-1.1/res" />
+      <root url="jar://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/146410960271e842b8902f05192ce723/jetified-android-weak-handler-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Android/Sdk/ndk/20.1.5948944/caches/transforms-2/files-2.1/146410960271e842b8902f05192ce723/jetified-android-weak-handler-1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

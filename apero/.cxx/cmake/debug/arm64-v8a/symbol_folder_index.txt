@@ -1,0 +1,1 @@
+/home/cuong/AndroidStudioProjects/Droid/apero/build/intermediates/cmake/debug/obj/arm64-v8a

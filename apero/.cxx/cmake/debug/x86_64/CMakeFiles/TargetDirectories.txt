@@ -1,0 +1,14 @@
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/nopie_openvpn.x86_64.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/pie_openvpn.x86_64.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/lzo.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/lz4.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/crypto.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/ssl.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/ovpn3.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/openvpn.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/opvpnutil.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/osslspeedtest.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/jbcrypto.dir
+/home/cuong/AndroidStudioProjects/Droid/apero/.cxx/cmake/debug/x86_64/CMakeFiles/libovpnexec.so.dir

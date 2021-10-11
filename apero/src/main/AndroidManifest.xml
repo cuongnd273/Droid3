@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.apero.openvpn">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!--  <uses-permission android:name="com.android.vending.BILLING" />  -->
+    <application>
+        <!-- Begin Activity by ics-openvpn -->
+        <service
+            android:name=".core.OpenVPNService"
+            android:permission="android.permission.BIND_VPN_SERVICE">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".api.ExternalOpenVPNService"
+            tools:ignore="ExportedService">
+
+            <intent-filter>
+                <action android:name="com.apero.openvpn.api.IOpenVPNAPIService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".LaunchVPN"
+            android:excludeFromRecents="true"
+            android:label="@string/vpn_launch_title"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Panel"
+            tools:ignore="ExportedActivity">
+        </activity>
+    </application>
+</manifest>
